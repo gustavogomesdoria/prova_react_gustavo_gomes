@@ -1,0 +1,173 @@
+.col-md-6.col_1_of_2.span_1_of_2 {
+    margin-bottom: 0.6em; }
+  
+  .main-content {
+    margin-left: 250px;
+    background: #eee; }
+  
+  @media (max-width: 640px) {
+    .content-top-gap {
+      padding: 15px; } }
+  
+  @media (max-width: 580px) {
+    .content-top-gap {
+      margin-top: 120px; }
+    .user-panel-top {
+      grid-auto-flow: row; }
+    .search-box {
+      order: 2;
+      margin-top: 15px; }
+    .user-dropdown-details {
+      order: 1; }
+    .header {
+      height: 120px; } }
+  
+  @media (max-width: 500px) {
+    .nofitications-dropdown ul.dropdown-menu {
+      min-width: 250px;
+      right: -110px;
+      z-index: 999; }
+    .nofitications-dropdown li .dropdown-menu:before {
+      right: 125px; }
+    .sidebar-menu-collapsed .toggle-btn {
+      width: 50px;
+      top: 0;
+      height: 50px;
+      line-height: 50px;
+      padding: 0;
+      background: var(--light-bg-color); }
+    .sidebar-menu-collapsed .sidebar-menu {
+      width: 0px; }
+    .sidebar-menu-collapsed .main-content {
+      margin-left: 0px; }
+    .toggle-btn {
+      top: 0;
+      bottom: auto;
+      height: 50px;
+      line-height: 45px;
+      padding-top: 0;
+      padding-bottom: 0;
+      background: var(--light-bg-color); }
+    .logo {
+      margin-top: 50px; }
+    .sidebar-menu {
+      width: 230px; }
+    .main-content {
+      margin-left: 0px; }
+    .sidebar-menu-collapsed .custom-nav li a {
+      display: none; } }
+  
+  /*-- user card --*/
+  .img-border {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  
+  .img-bg {
+    background: url() no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 253px; }
+  
+  a.pos {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    left: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    border-radius: 4px; }
+  
+  a.pos:hover {
+    background-color: rgba(0, 0, 0, 0.2); }
+  
+  /*-- //user card --*/
+  /*-- tables --*/
+  table {
+    padding: 17px 0; }
+  
+  table.dataTable thead th,
+  table.dataTable thead td {
+    padding: 10px 13px;
+    border-bottom: 1px solid transparent; }
+  
+  table.dataTable.no-footer {
+    border-bottom: 1px solid transparent; }
+  
+  table.dataTable.stripe tbody tr.odd,
+  table.dataTable.display tbody tr.odd {
+    background-color: #ffffff; }
+  
+  table.dataTable.display tbody tr.odd > .sorting_1,
+  table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+    background-color: #ffffff; }
+  
+  table.dataTable.display tbody tr.even > .sorting_1,
+  table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+    background-color: #fff; }
+  
+  table.dataTable.hover tbody tr:hover,
+  table.dataTable.display tbody tr:hover {
+    background-color: #fff; }
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid transparent;
+    background: var(--primary);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px; }
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: 1px solid transparent;
+    background: var(--primary); }
+  
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_processing,
+  .dataTables_wrapper .dataTables_paginate {
+    color: #888; }
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: .4em .9em;
+    font-size: 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px; }
+  
+  .dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 7px 15px;
+    padding-right: 25px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    opacity: .6; }
+  
+  .dataTables_wrapper .dataTables_filter input:focus {
+    opacity: 1; }
+  
+  table.dataTable tbody th,
+  table.dataTable tbody td {
+    color: var(--para-color); }
+  
+  table.dataTable tbody td:nth-child(1) {
+    font-weight: 600;
+    color: #333;
+    font-size: 15px; }
+  
+  label select {
+    background: #fff;
+    border-radius: 4px;
+    padding: 0 5px;
+    border: 1px solid #999; }
